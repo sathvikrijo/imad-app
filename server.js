@@ -70,7 +70,7 @@ app.get('/ui/style.css', function (req, res) {
 
 app.get('/:articlename', function (req, res) {
     var aarticlename= req.params.articlename;
-  res.send(createtemplate(articles[articlename]));
+  res.send(createTemplate(articles[articlename]));
 });
 
 app.get('/ui/madi.png', function (req, res) {
