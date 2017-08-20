@@ -19,7 +19,7 @@ var articles= {
                 </p>`
     
 },
-    'articlesTwo': {
+    'article2': {
         title: 'ARTICLE 2',
         head : 'This is Article 2 Deployed By Sathvik',
         content :`
@@ -27,7 +27,7 @@ var articles= {
                         Lorem ipsum dolor sit amet,consectetuer adipiscing elit. Aenean commodo ligula eget dur ullamcorper ultricies nisi. Nam eget dui. Etiam rhoncus. Maecenas tempus, tellus eget condimentum rhoncus, sem quam semper libero, sit amet adipiscing sem neque sed ipsum. Nam quam nunc, blandit vel, luctus pulvinar, hendrerit id, lorem. Maecenas nec odio et ante tincidunt tempus. Donec vitae sapien ut libero venenatis faucibus. Nullam quis ante. Etiam sit amet orci eget eros faucibus tincidunt. Duis leo. Sed fringilla mauris sit amet nibh. Donec sodales sagittis magna. Sed consequat, leo eget bibendum sodales, augue velit cursus nunc,
                     </p>`
         },
-    'articlesThree': {
+    'article3':{
         title: 'ARTICLE 3',
         head : 'This is Article 3 Deployed By Sathvik',
         content :`
@@ -40,7 +40,7 @@ var articles= {
 function createTemplate (data){
     var title = data.title;
     var head = data.head;
-    var content = content.head;
+    var content = data.content;
     var htmltemplate = `
         <head>
             <title>
