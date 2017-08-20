@@ -56,7 +56,7 @@ function createTemplate (data){
                         ${content}
                     </div>
                 </div>
-        </body>`
+        </body>`;
     return htmltemplate;
 }
 
