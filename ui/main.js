@@ -9,7 +9,7 @@ var img = document.getElementById("piggy");
 var marginLeft = 0;
 
 function moveRight(){
-    margin.Left = marginLeft + 10;
+    marginLeft = marginLeft + 10;
     img.style.marginLeft = marginLeft+'px';
 }
 
