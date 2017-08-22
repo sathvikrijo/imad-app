@@ -1,8 +1,8 @@
 console.log('Loaded!');
 
-var element = document.getElementById("main-txt");
+//var element = document.getElementById("main-txt");
 
-element.innerHTML = "Hello World!!!";
+//element.innerHTML = "Hello World!!!";
 
 var img = document.getElementById("piggy");
 
