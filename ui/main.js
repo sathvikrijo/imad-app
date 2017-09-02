@@ -14,10 +14,11 @@ button.onclick = function()
     }
             }
         }
-    };
-    
+            
     request.open('GET', 'http://sathvikrijo.imad.hasura-app.io/counter', true);
     request.send(null);
+    };
+
 
 var submit = document.getElementById('submit_btn');
 button.onclick = function()
