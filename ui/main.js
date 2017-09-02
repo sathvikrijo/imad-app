@@ -44,7 +44,7 @@ button.submit = function()
     };
     
     var nameInput = document.getElementById('name');
-    var namey = nameInput.value; 
-    request.open('GET', 'http://sathvikrijo.imad.hasura-app.io/submit-name?name=' + namey, true);
+    var name = nameInput.value; 
+    request.open('GET', 'http://sathvikrijo.imad.hasura-app.io/submit-name?name=' + name, true);
     request.send(null);
 };
