@@ -76,7 +76,7 @@ app.get('/submit-name/:name', function(req,res){
     
     names.push(none);
    
-   res.send(JSON.stringfy(names));
+   res.send(JSON.stringify(names));
 });
 
 app.get('/ui/style.css', function (req, res) {
